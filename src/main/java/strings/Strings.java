@@ -94,8 +94,8 @@ public class Strings {
 }
 /** METHODS
  *
- * "Hello World!".startsWith("Hello")                   - чи є у строки потрібний префікс
- * "Hello World!".endsWith("Hello")                     - ... суфікс
+ *  "Hello World!".startsWith("Hello")                   - чи є у строки потрібний префікс
+ *  "Hello World!".endsWith("Hello")                     - ... суфікс
  *  "Hello World!".contains(" ")                       - чи є в складі такі символи
  *  "Hello World!".equalsIgnoreCase("hELLO wORLD!")    - порівняння без врахування lower or upper case
  *  "Hello World!".indexOf('e')                        - індекс входження символа

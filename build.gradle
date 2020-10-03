@@ -18,4 +18,9 @@ dependencies {
 //mainClassName = 'enums.Main'
 //mainClassName = 'abstractClasses.Main'
 //mainClassName = 'strings.Main'
-mainClassName = 'exeptions.Exeptions'
+//mainClassName = 'exeptions.Exeptions'
+
+//mainClassName = 'jenerics.Main'
+//mainClassName = 'jenerics.InheritanceJenerics'
+
+mainClassName = 'varargs.Main'
