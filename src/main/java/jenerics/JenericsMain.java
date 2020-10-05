@@ -1,7 +1,7 @@
 package jenerics;
 
-public class Main {
-    public static void main(String[] args) {
+public class JenericsMain {
+    public JenericsMain() {
         System.out.println("----------- 0");
 
         Shmoption<String> present = new Shmoption<>("yes");

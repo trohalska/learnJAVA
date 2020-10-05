@@ -1,7 +1,7 @@
 package jenerics;
 
 public class InheritanceJenerics {
-    public static void main(String[] args) {
+    public InheritanceJenerics() {
         System.out.println("-----------");
 
         /** НАСЛЕДОВАНЕ */
@@ -55,9 +55,6 @@ public class InheritanceJenerics {
 //        Shmoption<Integer> shmopt = arrayInt[0];
 //        Integer x = shmopt.get();
 //        System.out.println(x);
-
-
-
     }
 
     /** НАСЛЕДОВАНЕ */

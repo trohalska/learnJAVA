@@ -1,7 +1,7 @@
 package interfaceVector;
 
-public class Main {
-    public static void main(String[] args) {
+public class InterfaceVectorMain {
+    public InterfaceVectorMain() {
         /**
          * sum check
          * */

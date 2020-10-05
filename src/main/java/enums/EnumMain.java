@@ -2,8 +2,8 @@ package enums;
 
 //import enum Weekday;
 
-public class Main {
-    public static void main(String[] args) {
+public class EnumMain {
+    public EnumMain() {
         for (Weekday w : Weekday.values()) {
             System.out.println(w + " (" + w.getShortName() + ")\t" +
                     (w.isWeekend() ? "relax and enjoy" : "arbeiten!"));

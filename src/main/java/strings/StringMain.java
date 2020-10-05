@@ -1,7 +1,8 @@
 package strings;
 
-public class Main {
-    public static void main(String[] args) {
+public class StringMain {
+
+    public StringMain() {
         Strings newObj = new Strings();
 
         System.out.println("------ LOCALE -------");

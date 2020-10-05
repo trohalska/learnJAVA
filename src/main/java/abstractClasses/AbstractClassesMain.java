@@ -2,8 +2,8 @@ package abstractClasses;
 
 import abstractClasses.b.WorldGreeter;
 
-public class Main {
-    public static void main(String[] args) {
+public class AbstractClassesMain {
+    public AbstractClassesMain() {
         WorldGreeter hi = new WorldGreeter();
 //        AbstractGreeter other = new AbstractGreeter("Alfred")
         hi.test();

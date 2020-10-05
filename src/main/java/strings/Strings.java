@@ -16,11 +16,11 @@ public class Strings {
     String s = "Hello World!";
     String empty = "";
     String fromClass = new String(new char[] {'H', 'e', 'l', 'l', 'o'});
-    String hello = """
-            cococo
-            thunder
-            ddd
-            """;  // багатострочний ввід
+//    String hello = """
+//            cococo
+//            thunder
+//            ddd
+//            """;  // багатострочний ввід
 
     /** DO NOT USE */
     String newEmptyString = new String();

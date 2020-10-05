@@ -3,8 +3,8 @@ package varargs;
 import jenerics.Shmoption;
 import java.util.Objects;
 
-public class Main {
-    public static void main(String[] args) {
+public class VarargsMain {
+    public VarargsMain() {
         printAll("a", 1, "b", 2.0);
 
         Object[] objects = {"a", 1, "b", 2.0};
