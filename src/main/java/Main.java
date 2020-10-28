@@ -1,12 +1,5 @@
-import abstractClasses.AbstractClassesMain;
-import collections.Set;
-import enums.EnumMain;
-import exeptions.Exceptions;
-import interfaceVector.InterfaceVectorMain;
-import jenerics.InheritanceJenerics;
-import jenerics.JenericsMain;
-import strings.StringMain;
-import varargs.VarargsMain;
+import collections.Maps;
+import collections.MultiMaps;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,11 +8,13 @@ public class Main {
 //        new AbstractClassesMain();
 //        new StringMain();
 //        new JenericsMain();
-
 //        new InheritanceJenerics();
+//        exeptions
 //        new VarargsMain();
 
-        new Set();
+//        new Sets();
+//        new Lists();
+        new Maps();
     }
 
 //    public static void main(String[] args) throws Exceptions.MyException {

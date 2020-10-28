@@ -4,9 +4,9 @@ import java.util.AbstractSet;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class Set {
+public class Sets {
 
-    public Set() {
+    public Sets() {
         System.out.println(rangeSet(10,20).contains(10));
         System.out.println(rangeSet(10,20).contains(20));
         System.out.println(rangeSet(10,20));
