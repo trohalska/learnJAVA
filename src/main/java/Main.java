@@ -1,7 +1,9 @@
-import collections.Maps;
-import collections.MultiMaps;
+import hash_equals.Equals;
 
 public class Main {
+
+
+
     public static void main(String[] args) {
 //        new InterfaceVectorMain();
 //        new EnumMain();
@@ -14,7 +16,14 @@ public class Main {
 
 //        new Sets();
 //        new Lists();
-        new Maps();
+//        new Maps();
+
+//        new MainMapExceptions();
+//        new HashCode(2,12,9);
+
+//        new InheritMethods();
+        new Equals.MyEquals();
+
     }
 
 //    public static void main(String[] args) throws Exceptions.MyException {

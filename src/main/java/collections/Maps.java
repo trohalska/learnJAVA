@@ -1,36 +1,69 @@
 package collections;
 
 import java.lang.reflect.Array;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Maps {
     public Maps() {
-        Map<String, Integer> m = new HashMap<>();
-        m.put("one", 1);
-        m.put("two", 2);
-        m.put("three", 3);
+//        Map<String, Integer> m = new HashMap<>();
+//        m.put("one", 1);
+//        m.put("two", 2);
+//        m.put("three", 3);
+//        iterateOverMap(m);
 
-        iterateOverMapSI(m);
+//        Map<String, String> m2 = new HashMap<>();
+//        m2.put("one", "        foo   ");
+//        m2.put("two", "   gg tt  ");
+//        m2.put("three", "   3     ");
+//        trimAllValues(m2);
+//        removeUnwantedValues3(m2);
+//        iterateOverMap(m2);
 
-        Map<String, String> m2 = new HashMap<>();
-        m2.put("one", "        foo   ");
-        m2.put("two", "   gg tt  ");
-        m2.put("three", "   3     ");
+        Map<Integer, String> mg = getIntegerToStringMap(10);
+        iterateOverMap(mg);
+    }
 
-        trimAllValues(m2);
-        removeUnwantedValues3(m2);
-        iterateOverMapSS(m2);
+    public static Map<Integer, String> getIntegerToStringMap(int count) {
+        return new AbstractMap<Integer, String>() {
 
+            @Override
+            public boolean containsKey(Object key) {
+                return key instanceof Integer && ((Integer) key) >= 0 && ((Integer) key) < count;
+            }
 
-//        System.out.println(rangeList(10,20).contains(10));      // true
-//        System.out.println(rangeList(10,20).contains(20));      // false
-//        System.out.println(rangeList(10,20));                   // 10,11,12, 13,14,15,16,17,18,19
-//        System.out.println(rangeList(10,20).get(0));            // 10
-//        System.out.println(rangeList(10,20).subList(3, 7));     // 13,14,15,16
-        // якщо цей метод наслідуваний довго буде, оскільки перевірить все по черзі
-//        System.out.println(rangeList(0,Integer.MAX_VALUE).contains(-1));
+            @Override
+            public String get(Object key) {
+                return containsKey(key) ? key.toString() : null;
+            }
+
+            @Override
+            public Set<Entry<Integer, String>> entrySet() {
+                return new AbstractSet<Entry<Integer, String>>() {
+                    @Override
+                    public Iterator<Entry<Integer, String>> iterator() {
+                        return new Iterator<Entry<Integer, String>>() {
+                            int next = 0;
+
+                            @Override
+                            public boolean hasNext() {
+                                return next < count;
+                            }
+
+                            @Override
+                            public Entry<Integer, String> next() {
+                                if (next == count) throw new NoSuchElementException();
+                                return new AbstractMap.SimpleImmutableEntry<>(next, String.valueOf(next++));
+                            }
+                        };
+                    }
+
+                    @Override
+                    public int size() {
+                        return count;
+                    }
+                };
+            }
+        };
     }
 
     /** обхід колекції */
@@ -46,10 +79,7 @@ public class Maps {
 //            System.out.println("Value: " + value);
 //        }
 //    }
-    public void iterateOverMapSI(Map<String, Integer> map) {
-        map.forEach((key, value) -> System.out.println(key + " -> " + value));
-    }
-    public void iterateOverMapSS(Map<String, String> map) {
+    public void iterateOverMap(Map<? extends Object, ? extends Object> map) {
         map.forEach((key, value) -> System.out.println(key + " -> " + value));
     }
 
