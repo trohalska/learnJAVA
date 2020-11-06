@@ -1,4 +1,4 @@
-import hash_equals.Equals;
+import compatarors.ComparatorMain;
 
 public class Main {
 
@@ -18,11 +18,13 @@ public class Main {
 //        new Lists();
 //        new Maps();
 
-//        new MainMapExceptions();
-//        new HashCode(2,12,9);
-
 //        new InheritMethods();
-        new Equals.MyEquals();
+//        new Equals.MyEquals();
+
+//        new HashCode(2,12,9);
+//        new MainMapExceptions();
+
+        new ComparatorMain();
 
     }
 

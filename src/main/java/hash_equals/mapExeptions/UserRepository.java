@@ -1,4 +1,4 @@
-package collections.mapExeptions;
+package hash_equals.mapExeptions;
 
 import java.util.*;
 

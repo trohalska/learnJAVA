@@ -1,4 +1,4 @@
-package collections.mapExeptions;
+package hash_equals.mapExeptions;
 
 public class MainMapExceptions {
     public MainMapExceptions() {
