@@ -1,0 +1,9 @@
+mvn exec:java -Dexec.mainClass="com.app.HelloWorld"
+
+javac main
+java -cp . main
+
+по замовчуванню => -cp .
+-cp (classpath;…;…;)
+
+java -jar file
