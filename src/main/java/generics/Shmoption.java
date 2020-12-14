@@ -1,8 +1,8 @@
-package jenerics;
+package generics;
 
 import java.util.NoSuchElementException;
 
-/** A muteble box which is either empty or contains a not-null value  */
+/** A mutable box which is either empty or contains a not-null value  */
 public class Shmoption<T> {
     T value;
     /** Passing nul means absent value */

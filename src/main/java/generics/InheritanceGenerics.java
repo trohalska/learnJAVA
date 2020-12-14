@@ -1,7 +1,7 @@
-package jenerics;
+package generics;
 
-public class InheritanceJenerics {
-    public InheritanceJenerics() {
+public class InheritanceGenerics {
+    public InheritanceGenerics() {
         System.out.println("-----------");
 
         /** НАСЛЕДОВАНЕ */

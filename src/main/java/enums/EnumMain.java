@@ -24,4 +24,12 @@ public class EnumMain {
  * enumValue.name()          - імя (=String)
  * enumValue.ordinal()       - порядковий номер
  *
+ * equals()
+ * hashCode()
+ * toString()
+ * finalize()
+ * clone()
+ *
+ * implements Comparable, Serializable
+ *
  * */

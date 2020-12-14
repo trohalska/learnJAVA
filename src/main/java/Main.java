@@ -1,4 +1,11 @@
 import compatarors.ComparatorMain;
+import enums.EnumMainPlanets;
+import lambda.Lambda;
+import wrappers.Wrappers;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,9 +13,9 @@ public class Main {
 //        new EnumMain();
 //        new AbstractClassesMain();
 //        new StringMain();
-//        new JenericsMain();
-//        new InheritanceJenerics();
-//        exeptions
+//        new GenericsMain();
+//        new InheritanceGenerics();
+          // exceptions
 //        new VarargsMain();
 
 //        new Sets();
@@ -20,23 +27,12 @@ public class Main {
 
 //        new HashCode(2,12,9);
 //        new MainMapExceptions();
-
 //        new ComparatorMain();
 
-        int result = 0;
-        int first = Integer.parseInt(args[0]);
-        int second = Integer.parseInt(args[1]);
-        int min = (first > second) ? second : first;
+//        Wrappers.main(args);
+//        Lambda.main(args);
+        EnumMainPlanets.main(args);
 
-        for (int count = 1; count <= min; count++) {
-            if (first % count == 0 && second % count == 0) {
-                if (count > result) {
-                    result = count;
-                }
-            }
-        }
-
-        System.out.println(result);
 
     }
 

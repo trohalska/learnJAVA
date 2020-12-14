@@ -1,7 +1,7 @@
-package jenerics;
+package generics;
 
-public class JenericsMain {
-    public JenericsMain() {
+public class GenericsMain {
+    public GenericsMain() {
         System.out.println("----------- 0");
 
         Shmoption<String> present = new Shmoption<>("yes");

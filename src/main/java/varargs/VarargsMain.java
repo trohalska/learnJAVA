@@ -1,6 +1,5 @@
 package varargs;
 
-import jenerics.Shmoption;
 import java.util.Objects;
 
 public class VarargsMain {
