@@ -1,1 +1,2 @@
-Some string. Некая строка
+Some string.
+Некая строка
