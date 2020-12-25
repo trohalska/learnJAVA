@@ -39,7 +39,7 @@ public class AllIterationsOverMap {
 		}
 		System.out.println();
 
-		// (3)
+		// (3)  // DO NOT USE
 		for (Integer key : map.keySet()) {
 			String value = map.get(key);
 			System.out.printf("%s=%s ", key, value);

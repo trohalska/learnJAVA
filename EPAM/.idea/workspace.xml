@@ -20,27 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e609867-435b-4a21-80fa-5ea448aeb144" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EPAM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld_MVC/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld_MVC/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld_MVC/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld_MVC/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mains/ConvertPrimitives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SQL/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmds.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/compatarors/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/compatarors/UserStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/functional_Interface/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/functional_Interface/LongSupplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/compatarors/ComparatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/compatarors/ComparatorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/compatarors/UserString.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/BehaviorParameterization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/ExecutionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/LambdaExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/LambdasLocalVarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606316959179</updated>
       <workItem from="1606316960218" duration="23000" />
+      <workItem from="1608802048383" duration="11000" />
     </task>
     <servers />
   </component>
