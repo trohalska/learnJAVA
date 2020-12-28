@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e609867-435b-4a21-80fa-5ea448aeb144" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/BehaviorParameterization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/ExecutionContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/LambdaExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/LambdasLocalVarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/java8functional/Util.java" afterDir="false" />
-    </list>
+    <list default="true" id="4e609867-435b-4a21-80fa-5ea448aeb144" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +57,7 @@
       <updated>1606316959179</updated>
       <workItem from="1606316960218" duration="23000" />
       <workItem from="1608802048383" duration="11000" />
+      <workItem from="1609066477198" duration="2000" />
     </task>
     <servers />
   </component>
