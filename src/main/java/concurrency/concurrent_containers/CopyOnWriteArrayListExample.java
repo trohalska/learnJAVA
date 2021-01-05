@@ -1,4 +1,4 @@
-package collections.collections_Maxym;
+package concurrency.concurrent_containers;
 
 import java.util.List;
 import java.util.Iterator;

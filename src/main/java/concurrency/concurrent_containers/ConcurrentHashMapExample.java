@@ -1,15 +1,15 @@
-package collections.collections_Maxym;
+package concurrency.concurrent_containers;
 
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class HashMapExample 
+public class ConcurrentHashMapExample
 {
 	Map<String,String> map;
 	
-	public HashMapExample()
+	public ConcurrentHashMapExample()
 	{
 		System.out.println("ConcurrentHashMap");
 		createMap(true);
@@ -55,7 +55,7 @@ public class HashMapExample
 
 	public static void main(String[] args) 
 	{
-		new HashMapExample();
+		new ConcurrentHashMapExample();
 		System.exit(0);
 	}
 }

@@ -1,17 +1,17 @@
-package collections.collections_Maxym;
+package concurrency.concurrent_containers;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.concurrent.CopyOnWriteArraySet;
 
-public class ArraySetExample 
+public class CopyOnWriteArraySetExample
 {
 	List<User> list = null;
 	
     CopyOnWriteArraySet<User> cowSet;
 
-	public ArraySetExample()
+	public CopyOnWriteArraySetExample()
 	{
 		list = new ArrayList<User>(); 
 		list.add(new User ("Прохор "));
@@ -49,6 +49,6 @@ public class ArraySetExample
 
 	public static void main(String args[]) 
 	{
-		new ArraySetExample();
+		new CopyOnWriteArraySetExample();
     }
 }

@@ -1,4 +1,4 @@
-package threads.lock_reetrant;
+package concurrency.lock_reentrant;
 
 import java.text.SimpleDateFormat;
 

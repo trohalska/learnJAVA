@@ -1,4 +1,4 @@
-package threads.threads_Maxym;
+package concurrency.atomic;
 
 import java.util.List;
 import java.util.ArrayList;

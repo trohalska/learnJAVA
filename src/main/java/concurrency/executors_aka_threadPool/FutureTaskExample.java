@@ -1,4 +1,4 @@
-package threads.threadPool_executor;
+package concurrency.executors_aka_threadPool;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.Callable;
