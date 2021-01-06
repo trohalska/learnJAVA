@@ -1,3 +1,5 @@
+package mvc_pattern.HelloWorld_MVC;
+
 public class Model {
     private static final String w1 = "Hello";
     private static final String w2 = "world!";
