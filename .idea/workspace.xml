@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53df7ce2-1977-4581-983a-1e38c7b2f838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/ProxySurrogateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/VisitorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/MediatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/ObserverApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restaurant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,20 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.VisitorApp">
-    <configuration name="BridgeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.BridgeApp" />
-      <module name="learningJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MediatorApp">
     <configuration name="CommandApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.CommandApp" />
       <module name="learningJava" />
@@ -69,8 +57,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MementoGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.MementoGame" />
+    <configuration name="MediatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.MediatorApp" />
+      <module name="learningJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.ObserverApp" />
       <module name="learningJava" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +109,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorApp" />
+        <item itemvalue="Application.ObserverApp" />
         <item itemvalue="Application.VisitorApp" />
         <item itemvalue="Application.ProxySurrogateApp" />
         <item itemvalue="Application.CommandApp" />
-        <item itemvalue="Application.MementoGame" />
-        <item itemvalue="Application.BridgeApp" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +152,7 @@
       <workItem from="1613575272710" duration="2809000" />
       <workItem from="1613759055785" duration="1967000" />
       <workItem from="1613802371059" duration="745000" />
+      <workItem from="1614112279046" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="patterns - first 6 (from 24)">
       <created>1613079642374</created>
