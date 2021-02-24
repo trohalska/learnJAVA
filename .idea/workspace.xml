@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="53df7ce2-1977-4581-983a-1e38c7b2f838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/MediatorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/ObserverApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/ChainOfResponsibilityApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/FlyweightApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/InterpreterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/State2App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/StateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/StrategyApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,21 +53,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/patterns" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.MediatorApp">
-    <configuration name="CommandApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.CommandApp" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/patterns" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChainOfResponsibilityApp">
+    <configuration name="ChainOfResponsibilityApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.ChainOfResponsibilityApp" />
       <module name="learningJava" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.MediatorApp" />
+    <configuration name="FlyweightApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.FlyweightApp" />
       <module name="learningJava" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.ObserverApp" />
+    <configuration name="State2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.State2App" />
       <module name="learningJava" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxySurrogateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.ProxySurrogateApp" />
+    <configuration name="StateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.StateApp" />
       <module name="learningJava" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.VisitorApp" />
+    <configuration name="StrategyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.StrategyApp" />
       <module name="learningJava" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MediatorApp" />
-        <item itemvalue="Application.ObserverApp" />
-        <item itemvalue="Application.VisitorApp" />
-        <item itemvalue="Application.ProxySurrogateApp" />
-        <item itemvalue="Application.CommandApp" />
+        <item itemvalue="Application.ChainOfResponsibilityApp" />
+        <item itemvalue="Application.StrategyApp" />
+        <item itemvalue="Application.State2App" />
+        <item itemvalue="Application.StateApp" />
+        <item itemvalue="Application.FlyweightApp" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +180,7 @@
       <workItem from="1613759055785" duration="1967000" />
       <workItem from="1613802371059" duration="745000" />
       <workItem from="1614112279046" duration="3744000" />
+      <workItem from="1614168032221" duration="5652000" />
     </task>
     <task id="LOCAL-00001" summary="patterns - first 6 (from 24)">
       <created>1613079642374</created>
@@ -190,5 +218,40 @@
     <MESSAGE value="patterns - first 6 (from 24)" />
     <MESSAGE value="patterns +7 (15 from 24)" />
     <option name="LAST_COMMIT_MESSAGE" value="patterns +7 (15 from 24)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="631" y="422" key="#com.intellij.ide.util.MemberChooser" timestamp="1614173426125">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="631" y="422" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1614173426125" />
+    <state width="1409" height="330" key="GridCell.Tab.0.bottom" timestamp="1614175182457">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1409" height="330" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1614175182457" />
+    <state width="1409" height="330" key="GridCell.Tab.0.center" timestamp="1614175182457">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1409" height="330" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1614175182457" />
+    <state width="1409" height="330" key="GridCell.Tab.0.left" timestamp="1614175182457">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1409" height="330" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1614175182457" />
+    <state width="1409" height="330" key="GridCell.Tab.0.right" timestamp="1614175182457">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1409" height="330" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1614175182457" />
+    <state x="306" y="290" key="SettingsEditor" timestamp="1614168071918">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="306" y="290" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1614168071918" />
+    <state x="483" y="334" key="run.anything.popup" timestamp="1614163100288">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="483" y="334" key="run.anything.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1614163100288" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learningJava$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1609349562281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>calcju3.*</FILTER>
+    </SUITE>
   </component>
 </project>
